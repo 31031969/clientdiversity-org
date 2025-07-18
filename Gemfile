@@ -15,7 +15,7 @@ source "https://rubygems.org"
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-feed", "~> 0.16", ">= 0.16.0"
   gem 'jekyll-redirect-from' # https://github.com/jekyll/jekyll-redirect-from
 end
 
@@ -30,4 +30,4 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 
-gem "github-pages", "~> 223", :group => :":jekyll-plugins"
+gem "github-pages", "~> 224", :group => :":jekyll-plugins"
